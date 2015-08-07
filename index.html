@@ -2,19 +2,33 @@
 <html lang="zh-cn">
 <head>
 <title>install app</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-         <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/pkkw/app/master/LearnerService.plist">
+    <div class="container-fluid">
+         <botton class="glyphicon-cloud-download"></botton>
+         <a class="glyphicon-download" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/pkkw/app/master/LearnerService.plist">
                 click this link to install
         </a>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8">学员服务APP 1.0测试版</div>
+            <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+            <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+            <!-- Optional: clear the XS cols if their content doesn't match in height -->
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        </div>
     </div>
 </body>
 </html>
