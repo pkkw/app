@@ -19,11 +19,11 @@
 				<key>bundle-identifier</key>
 				<string>com.gedu.lsa</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>2.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>微环球 V1.0 (测试版）</string>
+				<string>微环球 V2.1 (测试版）</string>
 			</dict>
 		</dict>
 	</array>
